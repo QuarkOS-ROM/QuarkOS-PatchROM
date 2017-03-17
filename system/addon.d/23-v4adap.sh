@@ -9,8 +9,8 @@ cat <<EOF
 addon.d/23-v4adap.sh
 priv-app/As/As.apk
 priv-app/AsUI/AsUI.apk
-priv-app/ViPER4AndroidFX-2.4.0.1/ViPER4AndroidFX-2.4.0.1.apk
-priv-app/ViPER4AndroidFX-2.4.0.1/lib/arm/libV4AJniUtils.so
+priv-app/ViPER4AndroidFX-2.5.0.5/ViPER4AndroidFX-2.5.0.5.apk
+priv-app/ViPER4AndroidFX-2.5.0.5/lib/arm/libV4AJniUtils.so
 lib/libdlbdapstorage.so
 lib/soundfx/libswdap-mod.so
 lib/soundfx/libv4a_fx_ics.so
