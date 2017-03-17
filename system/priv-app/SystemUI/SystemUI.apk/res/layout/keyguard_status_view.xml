@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardStatusView android:gravity="center|top" android:orientation="vertical" android:id="@id/keyguard_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/keyguard_clock_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextClock android:textColor="@color/clock_white" android:layout_gravity="center_horizontal" android:id="@id/clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_text_spacing_digital" android:singleLine="true" android:format12Hour="@string/keyguard_widget_12_hours_format" android:format24Hour="@string/keyguard_widget_24_hours_format" style="@style/widget_big_thin" />
+        <include layout="@layout/keyguard_status_area" />
+        <TextView android:textSize="@dimen/widget_label_font_size" android:textColor="@color/clock_gray" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/owner_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/date_owner_info_margin" android:layout_marginRight="16.0dip" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/home_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/home_icon_normal" android:layout_toLeftOf="@id/home_clock" android:layout_alignBottom="@id/home_clock" />
+            <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/home_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:format12Hour="@string/wc_widget_12_hours_format" android:format24Hour="@string/clock_24_hours_format" style="@style/widget_medium_thin" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.keyguard.KeyguardStatusView>
