@@ -1369,4 +1369,22 @@
     <item type="array" name="APKTOOL_DUMMY_98">false</item>
     <item type="array" name="APKTOOL_DUMMY_99">false</item>
     <item type="array" name="APKTOOL_DUMMY_9a">false</item>
+    <string-array name="dashboard_switches_entries">
+        <item>Switches off</item>
+        <item>Switches on</item>
+    </string-array>
+    <string-array name="dashboard_switches_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="dashboard_columns_entries">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <string-array name="dashboard_columns_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

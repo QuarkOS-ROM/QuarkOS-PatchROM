@@ -808,4 +808,33 @@
     <item type="id" name="color_panel">false</item>
     <item type="id" name="hex">false</item>
     <item type="id" name="enter">false</item>
+    <item type="id" name="quark_statusbar_customizations">false</item>
+    <item type="id" name="quark_customizations">false</item>
+    <item type="id" name="seekbar_percent">false</item>
+    <item type="id" name="seek_bar_pref_unit_right">false</item>
+    <item type="id" name="seek_bar_pref_value">false</item>
+    <item type="id" name="seek_bar_pref_unit_left">false</item>
+    <item type="id" name="seek_bar_pref_bar_container">false</item>
+    <item type="id" name="appIcon">false</item>
+    <item type="id" name="linearLayout">false</item>
+    <item type="id" name="appName">false</item>
+    <item type="id" name="appPackage">false</item>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="text_hex_wrapper">false</item>
+    <item type="id" name="hex_val">false</item>
+    <item type="id" name="color_picker_view_w">false</item>
+    <item type="id" name="fileSwitch">false</item>
+    <item type="id" name="searchApp">false</item>
+    <item type="id" name="appsList">false</item>
+    <item type="id" name="progressBar">false</item>
+    <item type="id" name="iconForApp">false</item>
+    <item type="id" name="thumbnailRadioButton">false</item>
+    <item type="id" name="thumbnailImage">false</item>
+    <item type="id" name="thumbnailText">false</item>
+    <item type="id" name="thumbnailListView">false</item>
+    <item type="id" name="thumbnailIcon">false</item>
+    <item type="id" name="quark_lockscreen_customizations">false</item>
+    <item type="id" name="quark_systemui_customizations">false</item>
+    <item type="id" name="quark_font_customizations">false</item>
+    <item type="id" name="quark_navbar_customizations">false</item>
 </resources>

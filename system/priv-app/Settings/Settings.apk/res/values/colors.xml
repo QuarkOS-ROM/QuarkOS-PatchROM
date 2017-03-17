@@ -94,4 +94,7 @@
     <color name="yl_preference_category_bg_color">#ffe0e0e0</color>
     <color name="color_primary">#ff1ca871</color>
     <color name="color_primary_dark">#ff16865a</color>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
 </resources>

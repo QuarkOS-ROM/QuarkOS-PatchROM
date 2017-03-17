@@ -24,6 +24,7 @@
         <intent android:targetPackage="com.sonymobile.playanywhere" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.playanywhere.settings.ThrowSettingActivity" />
     </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
+    <PreferenceScreen android:id="@id/quark_customizations" android:title="@string/quark_customizations" android:key="quark_customizations" android:summary="@string/quark_customizations_summary" android:fragment="com.android.settings.kryp.krypton" />
     <PreferenceScreen android:title="@string/quark_dpi_change" android:key="quark_dpi" android:summary="@string/quark_dpi_change_summary">
         <intent android:targetPackage="com.chornerman.easydpichanger" android:action="android.intent.action.MAIN" android:targetClass="com.chornerman.easydpichanger.MainActivity" />
     </PreferenceScreen>

@@ -55,4 +55,13 @@
     <attr name="unitsLeft" format="string" />
     <attr name="min" format="float" />
     <attr name="unitsRight" format="string" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="drawableArray" format="reference" />
+    <attr name="entryList" format="reference" />
+    <attr name="entryValuesList" format="reference" />
+    <attr name="entryDefault" format="string" />
+    <attr name="switchClass" format="string" />
+    <attr name="type" format="integer" />
 </resources>

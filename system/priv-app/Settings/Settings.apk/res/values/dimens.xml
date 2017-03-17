@@ -154,4 +154,5 @@
     <dimen name="list_item_min_height">54.0dip</dimen>
     <dimen name="text_size_medium_material">18.0sp</dimen>
     <dimen name="yl_battery_title_offset">4.0dip</dimen>
+    <dimen name="button_size">30.0dip</dimen>
 </resources>

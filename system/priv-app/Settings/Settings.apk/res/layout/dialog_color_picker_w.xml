@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/text_hex_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip">
+        <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/hex" />
+        <EditText android:id="@id/hex_val" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/hex_hint" android:singleLine="true" android:inputType="textCapCharacters" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <com.android.settings.kryp.settings.prefs.ColorPickerView android:id="@id/color_picker_view_w" android:tag="portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layerType="software" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="7.0dip">
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/white_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="0.5" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/black_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="0.5" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/cyan_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="0.5" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/red_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="0.5" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/green_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="0.5" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/yellow_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="0.5" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/press_color_to_apply" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip">
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/old_color_panel" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <TextView android:textSize="20.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="→" />
+        <com.android.settings.kryp.settings.prefs.ColorPickerPanelView android:id="@id/new_color_panel" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

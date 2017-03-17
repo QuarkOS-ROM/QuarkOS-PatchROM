@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/quark_customizations"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:icon="@drawable/ic_status_bar_settings" android:id="@id/quark_statusbar_customizations" android:title="@string/quark_statusbar_customizations" android:key="statusbar_customizations" android:fragment="com.android.settings.kryp.settings.StatusbarCustomizations" />
+    <PreferenceScreen android:icon="@drawable/ic_navbar_settings" android:id="@id/quark_navbar_customizations" android:title="@string/quark_navbar_customizations" android:key="navbar_customizations" android:fragment="com.android.settings.NavbarCustomizations" />
+    <PreferenceScreen android:icon="@drawable/ic_unlock_set_settings" android:id="@id/quark_lockscreen_customizations" android:title="@string/quark_lockscreen_customizations" android:key="lockscreen_customizations" android:fragment="com.android.settings.kryp.settings.LockscreenCustomizations" />
+    <PreferenceScreen android:icon="@drawable/ic_systemui_settings" android:id="@id/quark_systemui_customizations" android:title="@string/quark_systemui_customizations" android:key="systemui_customizations" android:fragment="com.android.settings.kryp.settings.SystemuiCustomizations" />
+    <PreferenceScreen android:icon="@drawable/ic_font_settings" android:id="@id/quark_font_customizations" android:title="@string/quark_font_customizations" android:key="font_customizations">
+        
+    </PreferenceScreen>
+</PreferenceScreen>
