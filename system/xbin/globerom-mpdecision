@@ -1,0 +1,39 @@
+#!/system/bin/sh
+# globeROM ___________________________________
+#
+# This script checks if your device is powered
+# by a Qualcomm Processor and enables 
+# mpdecision to optimize CPU Online States.
+#
+# This Feature is for battery saving!
+#
+# 2016
+# by www.mi-globe.com
+# ____________________________________________
+device="$(getprop ro.build.product)"
+
+case $device in
+	gemini|YUREKA|land|helium)
+		echo "start mpdecision" &> /dev/null
+	;;
+	*)
+		stop gr_mpdec #Exit script if no Qualcomm Device!
+	;;
+esac
+[ -f "/init.qcom.rc" ] || grep "mpdecision" /init.target.rc &> /dev/null || stop gr_mpdec #Exit script if no Qualcomm Device!
+
+sleep 60 #Sleep 60 Seconds after boot to wait for potential other mpdecision process
+while true
+do
+	if killall -0 mpdecision
+	then
+		#mpdecision already running !
+		echo "do nothing" &> /dev/null
+	else
+		/system/xbin/mpdecision --no_sleep &
+	fi
+
+	#Sleep for 10 hours and check again
+	sleep 36000
+done
+exit 0

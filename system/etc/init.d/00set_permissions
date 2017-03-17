@@ -1,0 +1,21 @@
+#!/system/bin/sh
+# QuarkOS ___________________________________________
+#
+# This script will set the correct permissions to
+# scripts in /etc/init.d/
+#
+# 2016
+# by www.osbusters.net
+
+logfile=/sdcard/QuarkOS_boot.log
+version=$(getprop ro.build.display.id)
+
+mount -o remount,rw -t auto /system
+chmod -R 755 /system/etc/init.d
+chmod -R 755 /system/xbin
+mount -o remount,ro -t auto /system
+
+echo "$(date "+%d-%m-%Y %H:%M:%S -- ")$(basename $0) -- Booting ROM $version" | tee -a ${logfile}
+echo "$(date "+%d-%m-%Y %H:%M:%S -- ")$(basename $0) -- Successfully executed!" | tee -a ${logfile}
+
+exit 0

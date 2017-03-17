@@ -1,0 +1,107 @@
+#!/system/bin/sh
+# QuarkOS ROM __________________________________________________________________________________________
+#
+# This script contains some Tweaks of
+# QuarkOS.
+#
+# 2016
+# by www.osbusters.net
+# ________________________________________________________________________________________________
+
+### --- ######################### --- Variables
+##
+#
+debug_log=1
+#
+##
+### --- ######################### --- Variables END
+### --- ######################### --- Comments
+##
+#
+# debug_log   --> Set this variable to either 0 or 1. This will enable or disable 
+#                 Logging to script actions to /sdcard/QuarkOS_boot.log
+#
+##
+### --- ######################### --- Comments END
+### --- ######################### --- CheckVars
+##
+#
+case ${debug_log} in
+	1)
+		logfile=/sdcard/QuarkOS_boot.log
+	;;
+	0|""|*)
+		logfile=/dev/null
+	;;
+esac
+#
+##
+### --- ######################### --- CheckVars END
+### --- ######################### --- Functions
+##
+#
+#
+##
+### --- ######################### --- Functions END
+### --- ######################### --- RunScript
+##
+#
+echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- DiskFree: `df | grep -e '^/system' | tr -s " "`" |tee -a ${logfile}
+echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- DiskFree: `df | grep -e '^/data ' | tr -s " "`" |tee -a ${logfile}
+##########---------- FileSystem Trimmer
+trimcache=`fstrim -v /cache`
+trimdata=`fstrim -v /data`
+trimsystem=`fstrim -v /system`
+echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- FsTrim $trimcache" |tee -a ${logfile}
+echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- FsTrim $trimdata" |tee -a ${logfile}
+echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- FsTrim $trimsystem" |tee -a ${logfile}
+##########---------- Tune sqLite Files
+for i in `find /data/data/ -iname "*.db"`
+do
+	sqlite3 $i 'VACUUM;REINDEX;' 2> /dev/null 
+done
+##########---------- ZipAlign APKs
+rm -r /data/QuarkOS/zipalign_tmp &> /dev/null
+mkdir -p /data/QuarkOS/zipalign_tmp
+mount -o rw,remount /system
+find /system/ -type f -iname "*.apk" 2> /dev/null | while read line
+do
+	zipalign -c 4 $line
+	if [ $? != 0 ]
+	then
+		echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- ZipAlign $line" |tee -a ${logfile}
+		zipalign -f 4 $line /data/QuarkOS/zipalign_tmp/`basename $line`
+		if [ $? != 0 ]
+		then
+			echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- ZipAlign $line FAILED" |tee -a ${logfile}
+		else
+			if [ -f /data/QuarkOS/zipalign_tmp/`basename $line` ]
+			then
+				cp -f -p /data/QuarkOS/zipalign_tmp/`basename $line` $line &> /dev/null
+ 				chmod 644 $line &> /dev/null
+				echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- ZipAlign $line Finished OK!" |tee -a ${logfile}
+			else
+				echo "`date "+%d-%m-%Y %H:%M:%S -- "`$(basename $0) -- ZipAlign $line FAILED" |tee -a ${logfile}
+			fi
+		fi
+	else
+		echo "$line is correctly zipaligned!" > /dev/null
+	fi
+done
+##########---------- Governor Backup (GovTuner Prep)
+find /sys/devices/system/cpu/ -name "scaling_governor" 2> /dev/null | while read line
+do
+	[ -z $1ine ] && continue
+	echo "echo $(cat $line) > $line 2> /dev/null" >> /system/etc/governor.profile 2> /dev/null
+done
+##########---------- Process Tweaks
+busybox renice -19 $(ps |grep com.android.systemui | awk '{ print $2}')
+busybox renice -19 $(ps |grep is.shortcut | awk '{ print $2}')
+
+echo 1 > /proc/sys/net/ipv6/conf/wlan0/disable_ipv6
+
+echo "$(date "+%d-%m-%Y %H:%M:%S -- ")$(basename $0) -- Successfully executed!" |tee -a ${logfile}
+exit 0
+#
+##
+### --- ######################### --- RunScript END
