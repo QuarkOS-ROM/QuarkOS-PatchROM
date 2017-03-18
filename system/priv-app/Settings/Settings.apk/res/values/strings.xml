@@ -3714,6 +3714,7 @@ And lot more..."</string>
     <string name="quark_customizations_summary">Customize your phone like a pro</string>
     <string name="quark_statusbar_customizations">Statusbar</string>
     <string name="quark_statusbar_customizations_summary">Customize different statusbar elements</string>
+    <string name="quark_statubar_battery">Battery Style</string>
     <string name="quark_lockscreen_customizations">Lockscreen</string>
     <string name="quark_lockscreen_customizations_summary">Change lockscreen clock and other elements</string>
     <string name="quark_systemui_customizations">SystemUI</string>

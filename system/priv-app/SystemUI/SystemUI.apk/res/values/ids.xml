@@ -409,4 +409,7 @@
     <item type="id" name="not_pressed">false</item>
     <item type="id" name="ani23">false</item>
     <item type="id" name="date_view_quark">false</item>
+    <item type="id" name="xperia_battery">false</item>
+    <item type="id" name="quark_battery">false</item>
+    <item type="id" name="circle_battery">false</item>
 </resources>

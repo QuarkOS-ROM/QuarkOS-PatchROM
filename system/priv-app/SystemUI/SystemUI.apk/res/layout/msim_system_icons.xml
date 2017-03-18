@@ -4,6 +4,17 @@
     <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
     <com.android.systemui.statusbar.policy.NetworkTraffic android:id="@id/networkTraffic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="false" />
     <include android:id="@id/msim_signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" layout="@layout/msim_signal_cluster_view" />
-    <com.android.systemui.BatteryMeterView android:id="@id/battery" android:layout_width="10.5dip" android:layout_height="16.0dip" android:layout_marginBottom="0.33000004dip" android:layout_marginStart="4.0dip" />
+    <com.android.systemui.rz.LeftLayout android:layout_width="wrap_content" android:layout_height="wrap_content" key="xperia_battery">
+        <com.erhany.XperiaBattery android:gravity="center" android:id="@id/xperia_battery" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:layout_width="wrap_content" android:layout_height="wrap_content" key="quark_battery">
+        <com.erhany.QuarkBattery android:gravity="center" android:id="@id/quark_battery" android:paddingLeft="-3.0dip" android:paddingRight="-8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:layout_width="wrap_content" android:layout_height="wrap_content" key="circle_battery">
+        <com.erhany.CircleBattery android:gravity="center" android:id="@id/circle_battery" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:layout_width="wrap_content" android:layout_height="wrap_content" key="battery_hide">
+        <com.android.systemui.BatteryMeterView android:id="@id/battery" android:layout_width="10.5dip" android:layout_height="16.0dip" android:layout_marginBottom="0.33000004dip" android:layout_marginStart="4.0dip" />
+    </com.android.systemui.rz.LeftLayout>
     <com.android.systemui.BatteryLevelTextView android:textSize="@dimen/battery_level_text_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/battery_level_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="7.0dip" />
 </LinearLayout>
