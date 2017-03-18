@@ -241,7 +241,7 @@
     </style>
     <style name="big_thin">
         <item name="android:textSize">@dimen/big_font_size</item>
-        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="widget_big_thin" parent="@style/big_thin">
         <item name="android:textSize">@dimen/widget_big_font_size</item>
@@ -284,5 +284,53 @@
         <item name="android:textSize">14.0dip</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/status_bar_traffic_color</item>
+    </style>
+    <style name="502_hour">
+        <item name="android:textSize">114.0dip</item>
+        <item name="android:fontFamily">x-sst-medium</item>
+    </style>
+    <style name="502_minute">
+        <item name="android:textSize">114.0dip</item>
+        <item name="android:fontFamily">x-sst-ultralight</item>
+    </style>
+    <style name="511">
+        <item name="android:textSize">114.0dip</item>
+        <item name="android:fontFamily">x-sst</item>
+    </style>
+    <style name="601">
+        <item name="android:textSize">114.0dip</item>
+        <item name="android:fontFamily">x-sst-light</item>
+    </style>
+    <style name="502h_hour">
+        <item name="android:textSize">88.0dip</item>
+        <item name="android:fontFamily">x-sst-medium</item>
+    </style>
+    <style name="502h_minute">
+        <item name="android:textSize">88.0dip</item>
+        <item name="android:fontFamily">x-sst-ultralight</item>
+    </style>
+    <style name="511h">
+        <item name="android:textSize">88.0dip</item>
+        <item name="android:fontFamily">x-sst</item>
+    </style>
+    <style name="601h">
+        <item name="android:textSize">88.0dip</item>
+        <item name="android:fontFamily">x-sst-light</item>
+    </style>
+    <style name="quark_clock">
+        <item name="android:textSize">88.0dip</item>
+        <item name="android:fontFamily">Scratch</item>
+    </style>
+    <style name="quark_clock_vert">
+        <item name="android:textSize">114.0dip</item>
+        <item name="android:fontFamily">Scratch</item>
+    </style>
+    <style name="xperia_label">
+        <item name="android:textSize">@dimen/widget_label_font_size</item>
+        <item name="android:fontFamily">x-sst</item>
+    </style>
+    <style name="quark_label">
+        <item name="android:textSize">@dimen/widget_label_font_size</item>
+        <item name="android:fontFamily">HelveticaNeueCyr</item>
     </style>
 </resources>

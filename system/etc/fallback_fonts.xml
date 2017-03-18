@@ -87,6 +87,22 @@
             <file>.SST-CondensedBd.ttf</file>
         </fileset>
     </family>
+	<family>
+        <nameset>
+            <name>HelveticaNeueCyr</name>
+        </nameset>
+        <fileset>
+            <file>HelveticaNeueCyr.ttf</file>
+        </fileset>
+    </family>
+	<family>
+        <nameset>
+            <name>Scratch</name>
+        </nameset>
+        <fileset>
+            <file>Scratch.ttf</file>
+        </fileset>
+    </family>
     <family>
         <fileset>
             <file variant="elegant">NotoNaskhArabic-Regular.ttf</file>

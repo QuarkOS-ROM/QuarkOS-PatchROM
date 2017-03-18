@@ -2,5 +2,25 @@
 <PreferenceScreen android:title="@string/quark_lockscreen_customizations"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
+    <PreferenceCategory android:title="Analog clock" />
+    <SwitchPreference android:title="Standard" android:key="analog_clock" android:defaultValue="false" />
+    <SwitchPreference android:title="Sony" android:key="analog_sony" android:defaultValue="false" />
+    <SwitchPreference android:title="Quark" android:key="analog_xperia" android:defaultValue="false" />
+    <PreferenceCategory android:title="Vertical clock" />
+    <SwitchPreference android:title="Quark style" android:key="quark_clock_v" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Lollipop Style" android:key="502" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Lollipop Style 2" android:key="511" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Marshmallow Style (Left)" android:key="601_left" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Marshmallow Style (Center)" android:key="601_center" android:defaultValue="true" />
+    <SwitchPreference android:title="Xperia Marshmallow Style (Right)" android:key="601_right" android:defaultValue="false" />
+    <PreferenceCategory android:title="Horizontal clock" />
+    <SwitchPreference android:title="AOSP Lockscreen Clock" android:key="aosp_clock" android:defaultValue="false" />
+    <SwitchPreference android:title="Quark style" android:key="quark_clock_h" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Lollipop Style" android:key="502h" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Lollipop Style 2" android:key="511h" android:defaultValue="false" />
+    <SwitchPreference android:title="Xperia Marshmallow Style" android:key="601h" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Sony date" android:key="sony_date" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Quark date" android:key="quark_date" android:defaultValue="false" />
+    <CheckBoxPreference android:title="AOSP date" android:key="rr_date" android:defaultValue="false" />
+    <SwitchPreference android:title="Alarm" android:key="alarm" android:defaultValue="true" />
 </PreferenceScreen>

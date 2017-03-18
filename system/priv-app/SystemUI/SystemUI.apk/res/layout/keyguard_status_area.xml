@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
-    <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/widget_label" />
-    <TextView android:textColor="@color/clock_gray" android:gravity="center" android:id="@id/alarm_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:drawableStart="@drawable/ic_access_alarms_big" android:layout_marginStart="6.0dip" style="@style/widget_label" />
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="analog_clock">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a • EEEE - LLLL • dd" android:format24Hour="a • EEEE - LLLL • dd" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="analog_sony">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a • EEE | LLL • dd" android:format24Hour="a • EEE | LLL • dd" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="analog_xperia">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a • EEE | LLL • dd" android:format24Hour="a • EEE | LLL • dd" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="quark_clock_v">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a • EEE | LLL • dd" android:format24Hour="LLL • dd • EEE" style="@style/quark_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="502">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="511">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-95.0dip" key="601_left">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="601_center">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-95.0dip" key="601_right">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="quark_date">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a • EEE | LLL • dd" android:format24Hour="EEEE • dd • LLLL" android:letterSpacing="0.15" style="@style/quark_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" key="sony_date">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view_quark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:format12Hour="a - EEE dd LLL" android:format24Hour="EEE dd LLL" style="@style/xperia_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" key="rr_date">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:letterSpacing="0.15" style="@style/widget_label" />
+    </com.android.systemui.rz.LeftLayout>
+    <com.android.systemui.rz.LeftLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" key="alarm">
+        <TextView android:textColor="@color/clock_gray" android:gravity="center" android:id="@id/alarm_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:textAllCaps="true" android:drawableStart="@drawable/ic_access_alarms_big" android:layout_marginStart="-1.0dip" android:letterSpacing="0.15" style="@style/widget_label" />
+    </com.android.systemui.rz.LeftLayout>
 </LinearLayout>

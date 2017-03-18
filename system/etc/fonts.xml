@@ -116,6 +116,12 @@
         <font weight="400" style="normal">.SST-Condensed.ttf</font>
         <font weight="700" style="normal">.SST-CondensedBd.ttf</font>
     </family>
+	<family name="HelveticaNeueCyr">
+        <font weight="400" style="normal">HelveticaNeueCyr.ttf</font>
+    </family>
+	<family name="Scratch">
+        <font weight="400" style="normal">Scratch.ttf</font>
+    </family>
     <family variant="elegant">
         <font weight="400" style="normal">NotoNaskhArabic-Regular.ttf</font>
         <font weight="700" style="normal">NotoNaskhArabic-Bold.ttf</font>
