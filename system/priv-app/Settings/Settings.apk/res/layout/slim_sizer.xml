@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@string/listsystem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/btn_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <Button android:id="@id/btn_delete" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_sys_app_delete" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/btn_profile" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_menu_save" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="?android:attr/buttonStyleSmall" />
+</RelativeLayout>

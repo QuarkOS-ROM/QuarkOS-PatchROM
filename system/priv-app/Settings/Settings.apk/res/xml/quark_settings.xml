@@ -41,6 +41,7 @@
     <PreferenceScreen android:title="@string/quark_kernel_adiutor" android:key="kernel_adiutor" android:summary="@string/quark_kernel_adiutor_summary">
         <intent android:targetPackage="com.kerneladiutor.mod" android:action="android.intent.action.MAIN" android:targetClass="com.grarak.kerneladiutor.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:id="@id/system_app_remover" android:title="@string/sizer_title" android:summary="@string/sizer_title_summary" android:fragment="com.android.settings.rz.SystemappRemover" />
     <PreferenceScreen android:title="@string/quark_supersu" android:key="supersu">
         <intent android:targetPackage="eu.chainfire.supersu" android:action="android.intent.action.MAIN" android:targetClass="eu.chainfire.supersu.MainActivity" />
     </PreferenceScreen>

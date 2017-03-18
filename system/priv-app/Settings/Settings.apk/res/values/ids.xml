@@ -808,6 +808,9 @@
     <item type="id" name="color_panel">false</item>
     <item type="id" name="hex">false</item>
     <item type="id" name="enter">false</item>
+    <item type="id" name="btn_delete">false</item>
+    <item type="id" name="btn_profile">false</item>
+    <item type="id" name="system_app_remover">false</item>
     <item type="id" name="quark_statusbar_customizations">false</item>
     <item type="id" name="quark_customizations">false</item>
     <item type="id" name="seekbar_percent">false</item>

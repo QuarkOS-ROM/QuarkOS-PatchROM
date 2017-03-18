@@ -1364,6 +1364,10 @@
         <item>1500</item>
         <item>2000</item>
     </string-array>
+    <string-array name="slimsizer_profile_array">
+        <item>Load Profile</item>
+        <item>Save Profile</item>
+    </string-array>
     <item type="array" name="APKTOOL_DUMMY_96">false</item>
     <item type="array" name="APKTOOL_DUMMY_97">false</item>
     <item type="array" name="APKTOOL_DUMMY_98">false</item>
