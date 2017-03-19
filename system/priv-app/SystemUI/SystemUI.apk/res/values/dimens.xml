@@ -293,7 +293,7 @@
     <dimen name="eca_overlap">-10.0dip</dimen>
     <dimen name="bottom_text_spacing_digital">-10.0dip</dimen>
     <dimen name="label_font_size">14.0dip</dimen>
-    <dimen name="widget_label_font_size">16.0sp</dimen>
+    <dimen name="widget_label_font_size">14.0sp</dimen>
     <dimen name="widget_big_font_size">68.0dip</dimen>
     <dimen name="home_label_font_size">20.0sp</dimen>
     <dimen name="big_font_size">120.0dip</dimen>
