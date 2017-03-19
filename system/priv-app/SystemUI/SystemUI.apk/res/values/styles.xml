@@ -333,4 +333,8 @@
         <item name="android:textSize">@dimen/widget_label_font_size</item>
         <item name="android:fontFamily">HelveticaNeueCyr</item>
     </style>
+    <style name="quark_carrier_label">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:fontFamily">x-sst</item>
+    </style>
 </resources>
