@@ -10505,6 +10505,27 @@
 
     move-object/from16 v0, p0
 
+    iget-object v1, v0, Lcom/android/systemui/SystemUI;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "ticker_toggle"
+
+    const/4 v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    if-eqz v1, :cond_5
+
+    const/4 v3, 0x0
+
+    :cond_5
+    move-object/from16 v0, p0
+
     iput-boolean v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mTickerEnabled:Z
 
     move-object/from16 v0, p0
