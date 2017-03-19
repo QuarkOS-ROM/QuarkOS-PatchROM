@@ -15,4 +15,5 @@
     <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="SIM 1 Signal Cluster Color" android:key="signal_cluster_color" android:defaultValue="\#ffffffff" alphaSlider="true" />
     <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="SIM 2 Signal Cluster Color" android:key="signal_cluster_color2" android:defaultValue="\#ffffffff" alphaSlider="true" />
     <SwitchPreference android:title="Notification icons" android:key="statusbar_icons_hide" android:defaultValue="true" android:summaryOn="Visible" android:summaryOff="Hidden" />
+    <SwitchPreference android:title="Double tap status bar to sleep" android:key="double_tap_sb_sleep" android:summary="Double tapping the status bar makes the device sleep" android:defaultValue="true" />
 </PreferenceScreen>
