@@ -3,67 +3,67 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:id="@id/vpn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_vpn_ic" android:paddingEnd="6.0dip" />
     <FrameLayout android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center" android:id="@id/wifi_signal" android:layout_width="18.409973dip" android:layout_height="17.0dip" />
+        <com.android.settings.rz.Image android:layout_gravity="center" android:id="@id/wifi_signal" android:layout_width="18.409973dip" android:layout_height="17.0dip" key="wifi_color" />
         <ImageView android:layout_gravity="bottom|center" android:id="@id/wifi_inout" android:layout_width="18.409973dip" android:layout_height="17.0dip" />
     </FrameLayout>
     <View android:id="@id/spacer" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
-    <ImageView android:layout_gravity="center" android:id="@id/lte_datainout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+    <com.android.settings.rz.Image android:layout_gravity="center" android:id="@id/lte_datainout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" key="signal_cluster_color" />
     <FrameLayout android:id="@id/data_combo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
-        <ImageView android:id="@id/data_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.settings.rz.Image android:id="@id/data_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
     </FrameLayout>
     <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
         <FrameLayout android:id="@id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:id="@id/mobile_signal_cdma" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ImageView android:id="@id/mobile_signal_3g" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-                <ImageView android:id="@id/mobile_signal_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_3g" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
             </LinearLayout>
             <ImageView android:id="@id/mobile_signal_1x_only" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             <LinearLayout android:orientation="vertical" android:id="@id/mobile_data_voice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ImageView android:id="@id/mobile_signal_data" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-                <ImageView android:id="@id/mobile_signal_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_data" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
             </LinearLayout>
-            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:id="@id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:layout_gravity="bottom" android:id="@id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" />
-            <ImageView android:id="@id/no_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom|center" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:id="@id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom" android:id="@id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:id="@id/no_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
         </FrameLayout>
     </FrameLayout>
     <View android:id="@id/spacer" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" />
     <FrameLayout android:id="@id/data_combo_sub2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
-        <ImageView android:id="@id/data_inout_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.settings.rz.Image android:id="@id/data_inout_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
     </FrameLayout>
     <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
         <FrameLayout android:id="@id/mobile_combo_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:id="@id/mobile_data_voice_sub2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ImageView android:id="@id/mobile_signal_data_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-                <ImageView android:id="@id/mobile_signal_voice_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_data_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_voice_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
             </LinearLayout>
-            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:id="@id/mobile_type_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:layout_gravity="bottom" android:id="@id/mobile_inout_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" />
-            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/no_sim_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
+            <com.android.settings.rz.Image android:id="@id/mobile_type_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom" android:id="@id/mobile_inout_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" key="signal_cluster_color2" />
+            <com.android.settings.rz.Image android:layout_gravity="end|bottom|center" android:id="@id/no_sim_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color2" />
         </FrameLayout>
     </FrameLayout>
     <View android:id="@id/spacer" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" />
     <FrameLayout android:id="@id/data_combo_sub3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
-        <ImageView android:id="@id/data_inout_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.settings.rz.Image android:id="@id/data_inout_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
     </FrameLayout>
     <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
         <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
         <FrameLayout android:id="@id/mobile_combo_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:id="@id/mobile_data_voice_sub3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ImageView android:id="@id/mobile_signal_data_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-                <ImageView android:id="@id/mobile_signal_voice_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_data_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+                <com.android.settings.rz.Image android:id="@id/mobile_signal_voice_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
             </LinearLayout>
-            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:id="@id/mobile_type_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <ImageView android:layout_gravity="bottom" android:id="@id/mobile_inout_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" />
-            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/no_sim_slot3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:id="@id/mobile_type_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:layout_gravity="bottom" android:id="@id/mobile_inout_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_inout_right_margin_signal" key="signal_cluster_color" />
+            <com.android.settings.rz.Image android:layout_gravity="end|bottom|center" android:id="@id/no_sim_slot3" android:layout_width="wrap_content" android:layout_height="wrap_content" key="signal_cluster_color" />
         </FrameLayout>
     </FrameLayout>
     <ImageView android:id="@id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
