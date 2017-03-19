@@ -3,5 +3,8 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     <PreferenceCategory android:title="Navbar" android:key="quark_navbar_settings" />
+    <Preference android:title="Enable/Disable Navigation Bar" android:key="quark_navbar_toggle" android:summary="Tapping here will open Navbar Enable/Disable Mod download page. Just download the required file and flash through recovery.">
+        <intent android:action="android.intent.action.VIEW" android:data="http://bit.ly/QuarkNav" />
+    </Preference>
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference android:title="3 Dot Menu" android:key="dot_menu_show" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
 </PreferenceScreen>
