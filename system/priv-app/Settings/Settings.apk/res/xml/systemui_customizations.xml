@@ -2,5 +2,6 @@
 <PreferenceScreen android:title="@string/quark_systemui_customizations"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    
+    <PreferenceCategory android:title="@string/quark_qs_panel" android:key="quark_qs_panel" />
+    <SwitchPreference android:title="Brightness Slider" android:key="brightness_slider_show" android:defaultValue="true" android:summaryOn="Brightness Slider Shown" android:summaryOff="Brightness Slider Hidden" />
 </PreferenceScreen>
