@@ -25,4 +25,11 @@
     <SwitchPreference android:title="Alarm" android:key="alarm" android:defaultValue="true" />
     <PreferenceCategory android:title="@string/quark_lockscreen_extra" android:key="quark_lockscreen_extra" />
     <SwitchPreference android:title="Lockscreen Album Art" android:key="hide_album_art" android:defaultValue="true" android:summaryOn="Lockscreen album art shown" android:summaryOff="Lockscreen album art hidden" />
+    <SwitchPreference android:title="Carrier Text" android:key="carrier_label_hide" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <CheckBoxPreference android:title="Show SIM1 Carrier Text" android:key="carrier_label_sim1" android:dependency="carrier_label_hide" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Show SIM2 Carrier Text" android:key="carrier_label_sim2" android:dependency="carrier_label_hide" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Show Carrier Text Divider" android:key="carrier_label_divider" android:dependency="carrier_label_hide" android:defaultValue="false" />
+    <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="SIM 1 Carrier Label Color" android:key="carrier_text_color" android:dependency="carrier_label_hide" android:defaultValue="\#ffffffff" alphaSlider="true" />
+    <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="SIM 2 Carrier Label Color" android:key="carrier_text_color_2" android:dependency="carrier_label_hide" android:defaultValue="\#ffffffff" alphaSlider="true" />
+    <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="Carrier Divider Color" android:key="carrier_text_color_div" android:dependency="carrier_label_hide" android:defaultValue="\#ffffffff" alphaSlider="true" />
 </PreferenceScreen>
