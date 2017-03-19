@@ -2,5 +2,6 @@
 <PreferenceScreen android:title="@string/quark_systemui_customizations"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    
+    <PreferenceCategory android:title="Navbar" android:key="quark_navbar_settings" />
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference android:title="3 Dot Menu" android:key="dot_menu_show" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
 </PreferenceScreen>
