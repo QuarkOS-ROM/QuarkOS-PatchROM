@@ -7,4 +7,6 @@
     <Preference android:key="tool#restartsystemui" android:summary=">> Soft reboot your device for ticker toggle to take effect" />
     <PreferenceCategory android:title="@string/quark_qs_panel" android:key="quark_qs_panel" />
     <SwitchPreference android:title="Brightness Slider" android:key="brightness_slider_show" android:defaultValue="true" android:summaryOn="Brightness Slider Shown" android:summaryOff="Brightness Slider Hidden" />
+    <PreferenceCategory android:title="Recents" android:key="quark_recents_panel" />
+    <com.android.settings.kryp.settings.prefs.ColorPickerPreference android:title="Recents Clear Button Color" android:key="recents_clear_color" android:defaultValue="\#ffffffff" alphaSlider="true" />
 </PreferenceScreen>
