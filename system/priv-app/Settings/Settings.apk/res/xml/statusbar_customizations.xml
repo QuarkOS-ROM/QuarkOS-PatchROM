@@ -10,4 +10,6 @@
     <PreferenceCategory android:title="@string/quark_statubar_clock" android:key="quark_statusbar_clock" />
     <SwitchPreference android:title="Right Clock" android:key="right_clock_mode" android:defaultValue="true" android:summaryOn="Visible" android:summaryOff="Hidden" />
     <SwitchPreference android:title="Left Clock" android:key="left_clock_mode" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />
+    <PreferenceCategory android:title="@string/quark_statubar_other" android:key="quark_statusbar_other" />
+    <SwitchPreference android:title="Notification icons" android:key="statusbar_icons_hide" android:defaultValue="true" android:summaryOn="Visible" android:summaryOff="Hidden" />
 </PreferenceScreen>
