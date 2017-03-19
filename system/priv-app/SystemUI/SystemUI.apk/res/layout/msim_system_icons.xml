@@ -2,7 +2,6 @@
 <LinearLayout android:gravity="center_vertical" android:id="@id/system_icons" android:layout_width="wrap_content" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <com.android.systemui.statusbar.policy.NetworkTraffic android:id="@id/networkTraffic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="false" />
     <include android:id="@id/msim_signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" layout="@layout/msim_signal_cluster_view" />
     <com.android.systemui.rz.LeftLayout android:layout_width="wrap_content" android:layout_height="wrap_content" key="xperia_battery">
         <com.erhany.XperiaBattery android:gravity="center" android:id="@id/xperia_battery" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
