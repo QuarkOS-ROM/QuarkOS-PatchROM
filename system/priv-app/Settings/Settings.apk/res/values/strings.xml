@@ -3719,6 +3719,7 @@ And lot more..."</string>
     <string name="quark_statubar_other">Other</string>
     <string name="quark_lockscreen_customizations">Lockscreen</string>
     <string name="quark_lockscreen_customizations_summary">Change lockscreen clock and other elements</string>
+    <string name="quark_lockscreen_extra">Extra</string>
     <string name="quark_systemui_customizations">SystemUI</string>
     <string name="quark_font_customizations">Fonts</string>
     <string name="quark_navbar_customizations">Navbar</string>

@@ -23,4 +23,6 @@
     <CheckBoxPreference android:title="Quark date" android:key="quark_date" android:defaultValue="false" />
     <CheckBoxPreference android:title="AOSP date" android:key="rr_date" android:defaultValue="false" />
     <SwitchPreference android:title="Alarm" android:key="alarm" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/quark_lockscreen_extra" android:key="quark_lockscreen_extra" />
+    <SwitchPreference android:title="Lockscreen Album Art" android:key="hide_album_art" android:defaultValue="true" android:summaryOn="Lockscreen album art shown" android:summaryOff="Lockscreen album art hidden" />
 </PreferenceScreen>
