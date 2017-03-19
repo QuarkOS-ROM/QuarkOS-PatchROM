@@ -3725,5 +3725,7 @@ And lot more..."</string>
     <string name="quark_headsup">HeadsUp Settings</string>
     <string name="quark_qs_panel">Quick Settings Panel</string>
     <string name="quark_font_customizations">Fonts</string>
+    <string name="quark_visualizer">Visualizer</string>
+    <string name="quark_visualizer_summary">Show music visualizer on lockscreen</string>
     <string name="quark_navbar_customizations">Navbar</string>
 </resources>

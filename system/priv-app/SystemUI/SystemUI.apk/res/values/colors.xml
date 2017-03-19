@@ -79,4 +79,5 @@
     <color name="clock_white">#ffffffff</color>
     <color name="clock_gray">#99ffffff</color>
     <color name="status_bar_traffic_color">#ffffffff</color>
+    <color name="new_custom_equalizer_fill_color">#96ffffff</color>
 </resources>

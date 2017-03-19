@@ -73,4 +73,7 @@
     <integer name="config_max_unlock_countdown_times">0</integer>
     <integer name="kg_carousel_angle">75</integer>
     <integer name="kg_glowpad_rotation_offset">0</integer>
+    <integer name="new_custom_equalizer_divisions">4</integer>
+    <integer name="new_custom_equalizer_db_fuzz_factor">10</integer>
+    <integer name="new_custom_equalizer_db_fuzz">-10</integer>
 </resources>

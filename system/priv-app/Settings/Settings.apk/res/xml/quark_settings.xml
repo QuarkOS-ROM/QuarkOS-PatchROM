@@ -20,6 +20,9 @@
     <PreferenceScreen android:title="@string/viper" android:key="viper_audio">
         <intent android:targetPackage="com.audlabs.viperfx" android:action="android.intent.action.MAIN" android:targetClass="com.audlabs.viperfx.main.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_visualizer" android:key="quark_visualizer" android:summary="@string/quark_visualizer_summary">
+        <intent android:targetPackage="com.adi.rom.interface" android:action="android.intent.action.MAIN" android:targetClass="com.adi.rom.interface.Visualizer" />
+    </PreferenceScreen>
     <PreferenceScreen android:title="@string/xperia_playanywhere" android:key="xperia_throw" android:summary="@string/xperia_playanywhere_summary">
         <intent android:targetPackage="com.sonymobile.playanywhere" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.playanywhere.settings.ThrowSettingActivity" />
     </PreferenceScreen>

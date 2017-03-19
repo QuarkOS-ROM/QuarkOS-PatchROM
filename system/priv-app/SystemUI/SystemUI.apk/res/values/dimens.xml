@@ -312,4 +312,7 @@
     <item type="dimen" name="APKTOOL_DUMMY_13a">false</item>
     <dimen name="net_traffic_single_text_size">12.0dip</dimen>
     <dimen name="net_traffic_multi_text_size">9.0dip</dimen>
+    <dimen name="new_custom_eqalizer_path_effect_1">6.0dip</dimen>
+    <dimen name="new_custom_eqalizer_path_effect_2">1.0dip</dimen>
+    <dimen name="new_custom_eqalizer_path_stroke_width">6.0dip</dimen>
 </resources>
