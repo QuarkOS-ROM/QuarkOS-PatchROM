@@ -6,5 +6,8 @@
     <SwitchPreference android:title="AOSP Battery" android:key="battery_hide" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />
     <SwitchPreference android:title="Xperia Battery" android:key="xperia_battery" android:defaultValue="true" android:summaryOn="Visible" android:summaryOff="Hidden" />
     <SwitchPreference android:title="Quark Battery" android:key="quark_battery" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />
-    <SwitchPreference android:title="Circle Battery" android:key="circle_battery" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />    
+    <SwitchPreference android:title="Circle Battery" android:key="circle_battery" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />
+    <PreferenceCategory android:title="@string/quark_statubar_clock" android:key="quark_statusbar_clock" />
+    <SwitchPreference android:title="Right Clock" android:key="right_clock_mode" android:defaultValue="true" android:summaryOn="Visible" android:summaryOff="Hidden" />
+    <SwitchPreference android:title="Left Clock" android:key="left_clock_mode" android:defaultValue="false" android:summaryOn="Visible" android:summaryOff="Hidden" />
 </PreferenceScreen>
