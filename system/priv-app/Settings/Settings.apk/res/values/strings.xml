@@ -3573,11 +3573,14 @@ To start Lock-to-app"</string>
     <string name="additional_info_summary">Some additional information about ROM</string>
     <string name="info">QuarkOS™ -- The Ultimate OS</string>
     <string name="info_summary">"(An OS Busters™ Product)
+ 
 "<b>Includes:</b>"
-Xperia features, apps, walpapers and UI.
+Quark unique features, apps, walpapers and UI.
 QuarkOS customizations.
 Quasar Atmox™ Ultimate Sound.
-And lot more..."</string>
+And lot more...
+ 
+•• A ROM of simplicity ••"</string>
     <string name="rom_thanks_to">Special Thanks To:</string>
     <string name="rom_thanks_to_summary">"- YU Televentures and Coolpad
 - Sony™

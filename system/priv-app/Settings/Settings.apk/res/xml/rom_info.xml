@@ -12,5 +12,21 @@
     <PreferenceScreen android:title="@string/changelog_title" android:key="changelog" android:summary="@string/changelog_title_summary" android:fragment="com.android.settings.rz.ChangeLog" />
     <PreferenceScreen android:title="@string/additional_info" android:key="container" android:summary="@string/additional_info_summary">
         <Preference android:title="@string/info" android:summary="@string/info_summary" style="?android:preferenceInformationStyle" />
+        <Preference android:icon="@drawable/ic_github" android:title="GitHub" android:key="github" android:summary="Get QuarkOS ROM source">
+            <intent android:action="android.intent.action.VIEW" android:data="https://github.com/QuarkOS-ROM" />
+        </Preference>
+        <Preference android:title="Follow us on :" android:key="follow_us_on" />
+        <Preference android:icon="@drawable/ic_facebook" android:title="Facebook" android:key="facebook">
+            <intent android:action="android.intent.action.VIEW" android:data="https://www.facebook.com/osbusters" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_twitter" android:title="Twitter" android:key="twitter">
+            <intent android:action="android.intent.action.VIEW" android:data="http://twitter.com/osbusters2013" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_google_plus" android:title="Google+" android:key="google_plus">
+            <intent android:action="android.intent.action.VIEW" android:data="https://plus.google.com/+OsbustersBlogspot" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_xda" android:title="XDA" android:key="github" android:summary="Developer's XDA profile">
+            <intent android:action="android.intent.action.VIEW" android:data="https://forum.xda-developers.com/member.php?u=6973144" />
+        </Preference>
     </PreferenceScreen>
 </PreferenceScreen>
