@@ -7,4 +7,8 @@
         <intent android:action="android.intent.action.VIEW" android:data="http://bit.ly/QuarkNav" />
     </Preference>
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference android:title="3 Dot Menu" android:key="dot_menu_show" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+    <PreferenceCategory android:title="Buttons" android:key="quark_buttons_settings" />
+    <PreferenceScreen android:title="@string/quark_backlight" android:key="quark_backlight_key" android:summary="@string/quark_backlight_summary">
+        <intent android:targetPackage="com.deskangel.kblight" android:action="android.intent.action.MAIN" android:targetClass="com.deskangel.kblight.kbLight" />
+    </PreferenceScreen>
 </PreferenceScreen>
