@@ -3559,7 +3559,7 @@ To start Lock-to-app"</string>
     <string name="rom_developer">ROM Developer</string>
     <string name="rom_developer_summary">Nitesh Prasad (nitesh9)</string>
     <string name="rom_version">ROM Version</string>
-    <string name="rom_version_summary">2.0 Stable</string>
+    <string name="rom_version_summary">3.0 Stable</string>
     <string name="rom_thanks">Special Thanks</string>
     <string name="rom_thanks_summary">Touch here to see the names</string>
     <string name="mywebsite">Website</string>
@@ -3585,13 +3585,13 @@ And lot more...
     <string name="rom_thanks_to_summary">"- YU Televentures and Coolpad
 - Sony™
 - HTC Corporation
-- ASUS
-- Temasek
 - CyanogenMod
-- Shoaib05 for kernel and loadshifter mod
-- Sanjeet990 SystemUI fix
-- androidexpert35
-- xperiaz2"</string>
+- AOSParadox for base Wallpaper app
+- Shoaib05 for kernel
+- Sanjeet990 for various help
+- androidexpert35 for xperia sound files
+- HootanParsa for MixPlorer
+- venkat kamesh for his awesome mods and guides"</string>
     <string name="changelog_name">QuarkOS™ v2.0 Stable (18.12.2016)</string>
     <string name="changelog_name_summary"><b>+ Second release +</b>"
 - Fixed UI glitches
@@ -3603,21 +3603,16 @@ And lot more...
 - Added app sidebar
 - Added network traffic monitor
 - Added OxygenOS camera support"</string>
-    <string name="rom_thanks_to_summary_more">"- noname81 for LMT launcher
-- chornerman_studio for DPI Changer
+    <string name="rom_thanks_to_summary_more">"- chornerman_studio for DPI Changer
+- diyun for iFont
+- Evie Labs Inc.
+- Debuffer for Gov-Tuner
+- Adi Aisiteru Reborn for visualizer
+- xperiaz2
 - OmniROM
-- zst123 for multiwindow sidebar
 - Vishal Gohel for Gexture
 - QuarkOS™ Official Group
 - And other YU Forum/XDA Members"</string>
-    <string name="testing_team">Testing team</string>
-    <string name="rom_thanks_to_testers">"- sailor80
-- Prasoon Mehra (a.k.a. prasoonmehra)
-- The_Guy (a.k.a. _ghost)
-- wolfie616
-- darshan1205
-- Anubhavjain707
-- Prashant Maheshwari"</string>
     <string name="changelog_name_summary1">"- Added zialign, init.d scripts and build.prop tweaks
 - Added loadshifter mod
 - Added dynamic navbar mod
@@ -3675,6 +3670,12 @@ And lot more...
     <string name="color_default">Default</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
+    <string name="testing_team">Testing team</string>
+    <string name="rom_thanks_to_testers">"- himanshu04
+- niba
+- sain (a.k.a. sain25)
+- wolfie616
+- Shree Gowtham"</string>
     <string name="dolby_atmos">Dolby Atmos®</string>
     <string name="maxx_audio">MaxxAudio™</string>
     <string name="viper">"ViPER's Audio"</string>
