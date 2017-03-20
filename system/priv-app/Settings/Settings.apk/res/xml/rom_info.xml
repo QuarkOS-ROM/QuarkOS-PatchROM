@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="@string/about_rom"
   xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/quarkos_colored_banner" android:title="" android:key="quarkos_colored_header_image" />
     <Preference android:title="@string/rom_name" android:summary="@string/rom_name_summary" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/rom_developer" android:summary="@string/rom_developer_summary" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/rom_version" android:summary="@string/rom_version_summary" style="?android:preferenceInformationStyle" />
