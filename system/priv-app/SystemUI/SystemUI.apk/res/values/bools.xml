@@ -27,7 +27,7 @@
     <bool name="config_keyguardUserSwitcher">false</bool>
     <bool name="doze_display_state_supported">true</bool>
     <bool name="doze_pulse_on_significant_motion">false</bool>
-    <bool name="doze_pulse_on_pick_up">false</bool>
+    <bool name="doze_pulse_on_pick_up">true</bool>
     <bool name="config_showSdcardAbsentIndicator">false</bool>
     <bool name="config_showWifiIndicatorWhenEnabled">false</bool>
     <bool name="config_showGpsIndicator">false</bool>
