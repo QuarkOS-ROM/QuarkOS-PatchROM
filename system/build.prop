@@ -317,6 +317,17 @@ pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 ro.vold.umsdirtyratio=20
 
+# Camera Properties
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=12000000
+ro.media.enc.hprof.vid.bps=12000000
+af.fast_track_multiplier=1
+camera.display.umax=1920x1080
+camera.display.lmax=1280x720
+camera.lowpower.record.enable=1
+sched.colocate.enable=1
+doze.display.supported=true
+
 # Image Enhancement
 ro.service.swiqi3.supported=true
 persist.service.swiqi3.enable=1
