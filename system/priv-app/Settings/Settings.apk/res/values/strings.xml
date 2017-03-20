@@ -3565,10 +3565,10 @@ To start Lock-to-app"</string>
     <string name="mywebsite">Website</string>
     <string name="website">Touch here to go to official website</string>
     <string name="about_gen">General Information</string>
-    <string name="changelog_title">Changelogs</string>
+    <string name="changelog_title"><b>Changelog</b></string>
     <string name="changelog_dialog">QuarkOS™ CHANGELOGS</string>
-    <string name="changelog_loading">Download the list of changes...</string>
-    <string name="changelog_error">Error loading list of changes</string>
+    <string name="changelog_loading">Loading changelog...</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <string name="additional_info">Additional Information</string>
     <string name="additional_info_summary">Some additional information about ROM</string>
     <string name="info">QuarkOS™ -- The Ultimate OS</string>
@@ -3715,6 +3715,9 @@ And lot more..."</string>
     <string name="quark_statusbar_customizations">Statusbar</string>
     <string name="quark_statusbar_customizations_summary">Customize different statusbar elements</string>
     <string name="quark_statubar_battery">Battery Style</string>
+    <string name="changelog_title_summary">View recent changes in ROM</string>
+    <string name="changelog_unknown">Unknown</string>
+    <string name="changelog_version">Version</string>
     <string name="quark_statubar_clock">Clock Position</string>
     <string name="quark_statubar_other">Other</string>
     <string name="quark_lockscreen_customizations">Lockscreen</string>

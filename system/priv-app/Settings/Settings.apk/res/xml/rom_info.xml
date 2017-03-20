@@ -8,7 +8,7 @@
     <Preference android:title="@string/mywebsite" android:key="website" android:summary="@string/website">
         <intent android:action="android.intent.action.VIEW" android:data="http://www.osbusters.net/" />
     </Preference>
-    <PreferenceScreen android:title="@string/changelog_title" android:key="changelog" android:fragment="com.android.settings.RomChangelog" />
+    <PreferenceScreen android:title="@string/changelog_title" android:key="changelog" android:summary="@string/changelog_title_summary" android:fragment="com.android.settings.rz.ChangeLog" />
     <PreferenceScreen android:title="@string/additional_info" android:key="container" android:summary="@string/additional_info_summary">
         <Preference android:title="@string/info" android:summary="@string/info_summary" style="?android:preferenceInformationStyle" />
     </PreferenceScreen>

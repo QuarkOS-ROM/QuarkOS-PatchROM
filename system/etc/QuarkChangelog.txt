@@ -1,0 +1,157 @@
+ **************************************
+ QuarkOS™ 3.0 Supreme (13.03.17)
+ **************************************
+ - Improved performance and SOT
+ 		• Added GovTuner
+ 		• Added mpdecision tweaks
+ 		• Removed loadshifter mod as it was not working well
+  		• Added Quark Optimization Engine (init.d)
+ 				+ fstrim cache, data and system on boot
+ 				+ governer optimization
+ 				+ process tweaks
+  				+ zipalign on boot
+ 				
+ - Improved camera performance
+ - Removed AR Fun and Info Eye camera add-ons (you can easily download them from apkmirror)
+ - Changed clock and calendar
+ - Fixed illegible SMS text issue
+ - Improved Quark Fluid UI (now more colorful)
+ - Themed package installer
+ - Modded Light Manager app to fully support QuarkOS
+ - Now supports unlimited notification led colors
+ - Added dark clock widget
+ - Fixed low button backlight issue
+ - Improved screen brightness
+ - Added system app remover in settings (much demanded)
+ - Fully fixed no ringtone and message tone issue
+ - Added ambient display (much demanded)
+ - Added HeadsUp enable/disable and timeout settings
+ - Removed Pie Control, App Sidebar (obsolete)
+ - Removed app autostarter (confusing app for newbies, users can download from playstore)
+ - Improved Image Enhancement for ARM64 architechture
+ - Removed some live wallpapers (less used)
+ - Added QuasarAtmoX™ v2.0 Ultimate Edition
+ 		• Updated Viper's Audio to v2.5.0.5
+ 		• Improved Dolby performance
+ 		• Improved Xperia audio and resampling
+ 		
+ - Added Quasar Lockscreen Music Visualizer (awesome)
+ 		• Circular Bars
+ 		• Vibrating Line
+ 		• Top Bottom Visualization
+ 		• Circular Wave
+ 		• Colored Bars (with lava lamp)
+ 		• Cyanogenmod style
+ 
+ - Added Quark™ Customizations
+ 		• Statusbar
+				+ Four Battery Icon styles to choose (Quark, Xperia, Circle and AOSP)
+				+ Right and Left clock positions
+				+ Change Wifi icon color
+				+ Change signal cluster color (separately for each SIM)
+				+ Show/Hide Notification icons
+				+ Double tap to sleep (toggle)
+ 		
+ 		• Navbar
+				+ Enable/Disable Navigation bar
+				+ Enable/Disable navbar 3 dot menu button
+				+ Hardware button backlight control (enable, disable, enable when screen on)
+ 			
+ 		• Lockscreen
+				+ Analog Clocks (Standard, Sony, Quark)
+				+ Vertical Clocks (Quark, Xperia various styles)
+				+ Horizontal Clocks (Quark, Xperia various styles)
+				+ Enable/Disable Alarm text
+				+ Enable/Disable Lockscreen Album Art (while music playback)
+				+ Enable/Disable Carrier text (Only SIM1, Only SIM2, both, none)
+				+ Color Carrier text (separately for each SIM)
+ 			
+ 		• SystemUI
+				+ Enable/Disable Statusbar Ticker Notification (soft reboot required)
+				+ Show/Hide brightness slider in notification panel
+				+ Color recents clear button
+ 			
+ 		• Fonts
+				+ Used best font changing app
+ 			
+ - Updated MiXplorer
+ - Updated Gapps
+ - Updated other apps (Music, Gboard, Light Manager etc.)
+ - Added Podcast to Music
+ - Added MIUI Calculator
+ - Added QuarkOS™ wallpaper collection
+ - Added minimalist launcher (Evie)
+ 		• iOS like unified search
+ 		• Pixel minimal design
+ 		• Icon Pack Support
+ 		• Gestures
+ 		• And lot more
+ 		
+ - Removed move app to SD Card settings (didn't work properly)
+ - Fixed some UI glitches
+ - Revamped 'About ROM' section in settings
+ - Improved stability
+ - And many small things here and there.
+ 
+---------------------------------------------------------
+
+ ************************************
+ QuarkOS™ 2.0 Stable (17.12.16)
+ ************************************
+ - Fixed UI glitches and distortions
+ - Tweaked power usage so no bootloops now
+ - Improved VoLTE connectivity
+ - Added new smart gestures
+ - Added OmniSwitch and Pie Control
+ - Added DPI control
+ - Added material power menu with APM
+ - Added app sidebar
+ - Added network traffic monitor
+ - Added OxygenOS camera support
+ - Added zipalign, init.d scripts and build.prop tweaks
+ - Added loadshifter mod
+ - Added dynamic navbar mod
+ - Added new FM Radio
+ - Added conference call support
+ - Added button backlight controller
+ - Added conference call support
+ - Added Boost+
+ - RRO Layers supported
+ - Humongous battery backup
+ - Changed launcher with themes support
+ - Changed keyboard to Gboard
+ - Removed some less useful apps
+ - Removed no sim icon from statusbar
+ - Improved Quark Fluid UI
+ - Added flat design with Pixel navbar
+ - New workaround for LED notification
+ - Improved camera performance
+ - Improved overall performance
+ - Fixed Call recording
+ - Fixed Visualizer
+ - Fixed Calender sync
+ - Fixed Smart Control
+ - Fixed no ringtone issue
+ - Fixed About ROM settings
+ - Fixed Sony Clock widget fonts
+ - Added MuViz
+ - Added new Clock, Calendar and other apps
+ - Added fstrim
+ - Updated apps
+ - New bootanimation
+ - And lot more...discover yourself
+ 
+-------------------------------------------------
+ 
+ *************************************
+ QuarkOS™ 1.0 Stable (20.11.16)
+ *************************************
+ - Initial release
+ - Quark fluid UI
+ - Xperia apps
+ - Xperia features
+ - Stable VoLTE with Video Call
+ - And many more
+ 
+ 
+ [QuarkOS™ is a product of osbusters.net and is closed source. However, a patchable source is available in GitHub for aspiring devs/users.]
