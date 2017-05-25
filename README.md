@@ -1,11 +1,11 @@
 
 
-QuarkOS™ Patchable Source
+# QuarkOS™ Patchable Source
 ===========================
 
 This README will guide you through the QuarkOS Patching and compiling.
 
-Base ROM
+## Base ROM
 ----------
 
 You first need a Base ROM on top of which QuarkOS can be patched.
@@ -21,14 +21,14 @@ QuarkOS supports ROMs with Android 5.1.1 Lollipop and above:
 -- Or any other ROM.
 -----------------------------------------------------------------
 
-{*} How to do QuarkOS Patch?
+## How to do QuarkOS Patch?
 
 Just go through the commits and make changes as directed. Simple, isn't it?
 
 No it's not that simple. You'll know when you do it.
 
 
-{*} How to decompile and recompile APKs and Jar for QuarkOS Patching?
+## How to decompile and recompile APKs and Jar for QuarkOS Patching?
 
 Use latest Apktool.jar to do the job. [Download ApkTool: https://ibotpeaches.github.io/Apktool/]
 
@@ -45,7 +45,7 @@ Just use the following commands (without quotes):
 "apktool b filename.jar"
 
 
-{*} How to deal with public hex values/IDs in smali files? [Must read! IMPORTANT!!]
+## How to deal with public hex values/IDs in smali files? [Must read! IMPORTANT!!]
 
 In some smali files (e.g. Settings.apk\smali\com\android\settings\AboutRom.smali) you may have noticed hex values like "0x7f06006e". Now notice the whole line in AboutRom.smali:
 
@@ -93,7 +93,7 @@ You can also use this tool if you like : https://forum.xda-developers.com/androi
 ---------------------------
 
 
-=> Apps to be used in QuarkOS:
+## Apps to be used in QuarkOS:
 
 Calendar: Xperia [http://www.apkmirror.com/apk/sony-mobile-communications/xperia-calendar/] or Asus [http://www.apkmirror.com/apk/zenui-asus-computer-inc/asus-calendar/]
 
@@ -113,7 +113,7 @@ Launcher used in QuarkOS 3.0: [Evie : https://play.google.com/store/apps/details
 
 
 
-=> Here are some screenshots for different commits for your understanding:
+## Here are some screenshots for different commits for your understanding:
 
 Quark Fluid SystemUI [commit: https://github.com/nitesh-prasad/QuarkOS/commit/b9bed4132a69e403284012d4bdd5438e95fd8c1f]
 
