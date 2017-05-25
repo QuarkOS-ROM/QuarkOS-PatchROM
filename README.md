@@ -14,12 +14,12 @@ So, what base ROM you should take?
 
 QuarkOS supports ROMs with Android 5.1.1 Lollipop and above:
 
- CyanogenMOD / Lineage OS
- AOSP
- MIUI
- ColorOS
- Or any other ROM.
------------------------------------------------------------------
+CyanogenMOD / Lineage OS
+AOSP
+MIUI
+ColorOS
+Or any other ROM.
+
 
 ## How to do QuarkOS Patch?
 
